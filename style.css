@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
+    --cor-de-fundo: #82659d;
     --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: "Roboto", sans-serif;
-    --roboto-mono: "Roboto Mono", monospace;
+    --fundo-texto: #d49897;
+    --borda: #414795;
+    --poppins: "Poppins", sans-serif;
+    --julius-sans-one: "Julius Sans One", sans-serif;
+    --montserrat: "Montserrat", sans-serif;
+    --questrial: "Questrial", sans-serif;
+
 }
 
 *{
@@ -17,15 +20,17 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--questrial);
 }
 
 .titulo-principal{
-    font-family: var(--roboto-mono);
+    font-family: var(--poppins);
+    font-weight: 500;
     font-size: 32px;
 }
 
 .titulo-secundario{
+    font-family: var(--montserrat);
     font-size: 24px;
 }
 .conteudo-titulo{
@@ -43,7 +48,7 @@ body{
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto-mono);
+    font-family: var(--montserrat);
     font-size: 40px;
     width: 70%;
 }
@@ -65,7 +70,8 @@ body{
 }
 
 .parametro-titulo{
-    font-size: var(--roboto-mono);
+    font-family: var(--julius-sans-one);
+    font-style: inherit;
     font-size: 28px;
 }
 
