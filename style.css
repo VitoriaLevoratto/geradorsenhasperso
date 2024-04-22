@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #82659d;
-    --fundo-senha: #00244D;
-    --fundo-texto: #d49897;
-    --borda: #414795;
+    --cor-de-fundo: #43115e;
+    --fundo-senha: #5B347B;
+    --fundo-texto: #795499;
+    --borda: #BFB8DA;
     --poppins: "Poppins", sans-serif;
     --julius-sans-one: "Julius Sans One", sans-serif;
     --montserrat: "Montserrat", sans-serif;
@@ -122,6 +122,7 @@ label{
     cursor: pointer;
 }
 
+
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
@@ -135,17 +136,17 @@ label{
 }
 
 .fraca{
-    background-color: #E71B32;
+    background-color: #281754;
     width: 25%;
 }
 
 .media{
-    background-color: #FAF408;
+    background-color: #48296d;
     width: 50%;
 }
 
 .forte{
-    background-color: #00FF85;
+    background-color: #6a3e81;
     width: 100%;
 }
 
